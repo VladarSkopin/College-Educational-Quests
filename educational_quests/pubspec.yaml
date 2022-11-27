@@ -1,0 +1,59 @@
+name: educational_quests
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  page_transition: ^2.0.9
+  email_validator: '^2.1.16'
+  intl: ^0.17.0
+  shared_preferences: ^2.0.15
+  provider: ^6.0.4
+  flutter_map: ^0.12.0
+  latlong: ^0.6.1
+  cloud_firestore: ^3.1.5
+  firebase_core_platform_interface: 4.5.1
+  firebase_auth: ^3.3.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+
+  # add assets to your application:
+  assets:
+    - assets/
+    - assets/images/logo_1.png
+    - assets/images/logo_2.png
+    - assets/images/logo_3.png
+    - assets/images/logo_4.png
+    - assets/images/scroll.png
+    - assets/images/college.png
+    - assets/images/parks.jpg
+    - assets/images/riddles.jpg
+    - assets/images/bg_1.png
+    - assets/images/bg_2.png
+    - assets/images/wreath_1.png
+    - assets/images/location_icon_1.png
+    - assets/images/location_icon_2.png
+    - assets/images/tools.png
+    - assets/instructions/instructions_1.PNG
+    - assets/instructions/instructions_2.PNG
+    - assets/instructions/instructions_3.PNG
+    - assets/instructions/instructions_4.PNG
+    - assets/instructions/instructions_5.PNG
